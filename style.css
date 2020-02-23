@@ -19,8 +19,9 @@ p{
 #selfie{
     float: left;
     width :15rem;
-    height:15rem;
+    height:22rem;
     margin-right: 20px; 
+    border:  #4aaaa5 solid 2px;
 }
 
 h1, h2, .form-group, li, .name{
@@ -30,9 +31,9 @@ h1, h2, .form-group, li, .name{
 
 .jumbotron{  
     background-color: white;
-    border: solid 1px #dddddd;
-    margin: 10rem 6rem;
-    padding: 2rem;
+    border: solid 4px black;
+    /* margin: 10rem 6rem; */
+    padding: 7rem;
     justify-content: center;
 }
 
@@ -42,8 +43,8 @@ h1, h2, .form-group, li, .name{
 }
 
 .nav1{
-    background: white;
-    border-bottom: #dddddd 3px solid;
+    background: rgb(216, 216, 216);
+    border: black 3px solid;
     
 }
 
@@ -87,11 +88,11 @@ ul li:last-child{
 }
 
 .footer{
-    background-color: #666666;
+    background-color: #d6d6d6;
     text-align: center;
     padding: 25px;
-    border-top: 12px solid #4aaaa5;
-    color:white;
+    border: 12px solid #4aaaa5;
+    color: black;
 }
 
 .card{
