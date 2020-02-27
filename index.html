@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+<head>
 
   <meta charset="UTF-8">
   <title>About Me</title>
@@ -9,21 +9,94 @@
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Aclonica|Boogaloo|Caudex|Chewy|Lateef|Merienda+One&display=swap" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
-
-   <div class="container container1">
-    <!--Nav Bar -->
-      <div class="row nav1 fixed-top">
-        <div class="col-lg-5">
-            <div class="namesid"> 
-              <h1 id="name">Said Aguilar</h1>
-            </div>
+<body>
+  <div class="container container0">
+    <div class="row nav1 fixed-top">
+      <div class="col-lg-5">
+        <div class="namesid">
+          <h1 id="name">Said Aguilar</h1>
         </div>
-        <div class="col-sm-7">
-          <ul class="nav">
+      </div>
+      <div class="col-sm-7">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href=".container1">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=".container2">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=".container3">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container container1">
+    <div class="row">
+      <div class="col-lg-1"> </div>
+      <div class="col-lg-10">
+        <div class="jumbotron0 jumbotron">
+          <h1 class="display-4">About Me</h1>
+          <hr class="my-4">
+          <img
+            src="https://lh3.googleusercontent.com/YGunRtEZZdfsLfoEKbTievCdx8U6q28JNXU_zWCOLrSiBsdbA7hNSROZCQmnlgPCaFIzI2a8RlkmO1yAtMzOGsEnjdFMv5XpGJkWOlORd4WB8kA2KarzxS8FDdKlRWQFkFyohsPeTAvxr3CQR-R8-uvPLX8leVdXLVM0xRYevDsx_u8aK0Qkq86P2aSHsKp08xwlquAsV25ipuSWwxfK3fMIcb-JC_KeyLIeFRamVVsJXI5bAqJ4AgsXDAqyIpdLOQd7TqAnksryIxHzzgQKGlYlSnHBd_mWTxpC4edLwwMoYF2X6f8KjouPDoOluwrjKjoIiYkDQK6xFg_qH2_rQTfDAzK_Z1n0ziJcadQShK2J1C8wMj2DGGEHlmjcPVcGGpOu1xXNPGRvhRZCbOjQDm85GJyksujN9JyDJwyTiDxkm544ErhPtneCNw1fab5-vVSvwR6bnIx20p4MylJhD8BQ4c1SQZ1CPLFnb8hFgY4JWsw6SDPSf4_e-bin6ZMqMs4_2INXMAAnKe2HkywNgmI5V9hlZyEGoUeWmgEF2OzBFmd65IRRKXcnWjKWGl0uRsKAO5AfkowXLM9QmxxaA_7meiDbxVlme5s5Lz78b74yJ-McNTInPuNxCjRIJKzHF7GcLXWASf4TiMhPbWdnv-ATdPoAv1DPB8oCABbaPJzHF-VKgVUt7mk=w661-h975-no"
+            id="selfie" alt="photo of said aguilar">
+          <p id="info">Hello my name is Said I live in Spring Valley California
+            and I'm curently studying to become a web developer. As hobbies I like to mountain bike, go hiking, play
+            sports play and also i like to play video games. Some of
+            my favorite shows are Rick and Morty and The Office, also my favorite sport to play is soccer and my
+            favorite sport to watch is football. </p>
+        </div>
+      </div>
+      <div class="col-lg-1"> </div>
+    </div>
+  </div>
+  <div class="container container2">
+    <div class="jumbotron jt1">
+      <h1 class="display-4">Portfolio</h1>
+      <hr>
+      <div class="row">
+        <div class="col-md-2 card">
+          <img class=" card-img-top cardimg" src="images/weatherDashPic.JPG" alt="Card image cap">
+          <div class="card-body"> Some more card content </div>
+        </div>
+        <div class="col-md-2 card">
+          <img class=" card-img-top cardimg" src="images/scheduler.JPG" alt="Card image cap">
+          <div class="card-body"> Some more card content </div>
+        </div>
+        <div class="col-md-2 card cardimg">
+          <img class=" card-img-top" src="images\quizPic.JPG" alt="quiz Pic">
+          <div class="card-body"> Some more card content </div>
+        </div>
+        <div class="col-md-2 card">
+          <img class=" card-img-top" src="images\MunchiMaps.JPG" alt="quiz Pic">
+          <div class="card-body"> Some more card content </div>
+        </div>
+        <div class="col-md-2 card">
+          <img class=" card-img-top" src="images\passwordGen.JPG" alt="quiz Pic">
+          <div class="card-body"> Some more card content </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="mainContainer">
+    <!-- Creates the Overall Grid -->
+    <div class="container">
+      <!--Nav Bar -->
+      <div class="nav1 fixed-top">
+        <div class="row">
+          <div class="col-sm-4">
+            <h1 id="name">Said Aguilar</h1>
+          </div>
+          <div class="col-sm-4">
+          </div>
+          <div class="col-sm-4">
+            <ul class="nav">
               <li class="nav-item">
                 <a class="nav-link active" href="index.html">About</a>
               </li>
@@ -33,118 +106,39 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
-          </ul>
-        </div>
-      </div>    
-  
-
-     <!-- jumbotron -->
-     <div class="row">
-      <div class="col-lg-1"> </div>
-       <div class="col-lg-10"> 
-        <div class="jumbotron0 jumbotron">
-                <h1 class="display-4">About Me</h1>
-                <hr class="my-4">
-                <img src = "https://lh3.googleusercontent.com/YGunRtEZZdfsLfoEKbTievCdx8U6q28JNXU_zWCOLrSiBsdbA7hNSROZCQmnlgPCaFIzI2a8RlkmO1yAtMzOGsEnjdFMv5XpGJkWOlORd4WB8kA2KarzxS8FDdKlRWQFkFyohsPeTAvxr3CQR-R8-uvPLX8leVdXLVM0xRYevDsx_u8aK0Qkq86P2aSHsKp08xwlquAsV25ipuSWwxfK3fMIcb-JC_KeyLIeFRamVVsJXI5bAqJ4AgsXDAqyIpdLOQd7TqAnksryIxHzzgQKGlYlSnHBd_mWTxpC4edLwwMoYF2X6f8KjouPDoOluwrjKjoIiYkDQK6xFg_qH2_rQTfDAzK_Z1n0ziJcadQShK2J1C8wMj2DGGEHlmjcPVcGGpOu1xXNPGRvhRZCbOjQDm85GJyksujN9JyDJwyTiDxkm544ErhPtneCNw1fab5-vVSvwR6bnIx20p4MylJhD8BQ4c1SQZ1CPLFnb8hFgY4JWsw6SDPSf4_e-bin6ZMqMs4_2INXMAAnKe2HkywNgmI5V9hlZyEGoUeWmgEF2OzBFmd65IRRKXcnWjKWGl0uRsKAO5AfkowXLM9QmxxaA_7meiDbxVlme5s5Lz78b74yJ-McNTInPuNxCjRIJKzHF7GcLXWASf4TiMhPbWdnv-ATdPoAv1DPB8oCABbaPJzHF-VKgVUt7mk=w661-h975-no" 
-                  id= "selfie" alt = "photo of said aguilar">
-                <p id="info">Hello my name is Said I live in Spring Valley California 
-                  and I'm curently studying to become a web developer.  As hobbies I like to mountain bike, go hiking, play sports play and also i like to play video games. Some of
-                  my favorite shows are Rick and Morty and The Office, also my favorite sport to play is soccer and my favorite sport to watch is football. </p>
-
-            </div>
-        </div>
-        <div class="col-lg-1"> </div>
-      </div> 
-      <!-- footer-->
-       
-    </div>
-    <div id="container container2">
-     <!-- jumbotron -->
-     <div class="jumbotron jt1">
-            <h1 class="display-4">Portfolio</h1>
-
-            <hr>
-
-            <div class="row">   
-                <div class="col-md-2 card card1 card-body">
-                  
-                  <img id="img1" src="images/weatherDashPic.JPG" alt="weather dashboard" >
-                  <h5 class="card-title"><a href="https://saidaguilar619.github.io/weatherDashboard/"> Weather Dashboard </a></h5>
-                </div>  
-                <div class="col-md-2 card">
-                  <img class=" card-img-top" src="images/weatherDashPic.JPG" alt="Card image cap">
-                  <div class="card-body"> Some more card content </div>
-                </div>
-                <div class="col-md-2 card card3 card-body">
-                    <h5 class="card-title"><a href="https://saidaguilar619.github.io/jsquiz/"> JS Quiz </a></h5>
-                </div>
-                <div class="col-md-2 card card4 card-body">
-                    <h5 class="card-title"><a href="https://saidaguilar619.github.io/passwordGenerator/"> Password Generator </a></h5>
-                </div>             
-                <div class="col-md-2 card card5 card-body">
-                    <h5 class="card-title"><a href="https://saidaguilar619.github.io/scheduler/"> Scheduler </a</h5>
-                </div>
-                  <div class="col-md-2 ">
-                </div>
-            </div>
-      </div>    
-      <div id="mainContainer">
-        <!-- Creates the Overall Grid -->
-        <div class="container">
-          <!--Nav Bar -->
-          <div class="nav1 fixed-top"> 
-            <div class="row">
-              <div class="col-sm-4">
-                <h1 id="name">Said Aguilar</h1>
-              </div>
-              <div class="col-sm-4">
-              </div>
-              <div class="col-sm-4">
-                
-                <ul class="nav">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-              </div>
-            </div>    
-        </div>
-      
-           <!-- jumbotron -->
-           <!-- <div class="jumbotron">
-                  <h1 class="display-4">Contact</h1>
-                  <hr class="my-4">
-                  <form>
-                    <div class="form-group">
-                      <label for="formGroupExampleInput">Name</label>
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Doe">
-                    </div>
-                    <div class="form-group">
-                      <label for="formGroupExampleInput2">Email</label>
-                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Message</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
-                  </form>
-                  <button type="button" class="btn btn-primary">Submit</button>
-            </div> -->
+            </ul>
           </div>
-      <!-- footer-->  
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="footer ">     
-          <p>Copyright	&#x24B8</p>  
-          </div> 
+        </div>
+      </div>
+      <div class="jumbotron">
+        <h1 class="display-4">Contact</h1>
+        <hr class="my-4">
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Email</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+        </form>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+    <!-- footer-->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="footer ">
+          <p>Copyright &#x24B8</p>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
