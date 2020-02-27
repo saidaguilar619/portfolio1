@@ -86,9 +86,9 @@ ul li:last-child{
 } 
 
 #name{
-    margin: 4rem 0rem 0rem 6rem;
+    margin: 5rem 0rem 0rem 6rem;
     color: white;
-    padding: 25px;
+    padding: 32px;
     float: left;
     background-color: #4aaaa5;
 }
@@ -121,7 +121,7 @@ ul li:last-child{
 }
 
 .card1 {
-    background-image: url('https://images.pexels.com/photos/3381028/pexels-photo-3381028.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-image: url("images/weatherDashPic.JPG");
 }
 
 .card2{
@@ -137,3 +137,7 @@ ul li:last-child{
     background-image: url('https://images.pexels.com/photos/3361704/pexels-photo-3361704.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
 }
 
+#img1{
+    height: 200px;
+    width: 17rem;
+}
